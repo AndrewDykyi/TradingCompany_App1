@@ -1,0 +1,19 @@
+﻿@model TradingCompany_WEB.Models.ProductModel
+
+@{
+    ViewData["Title"] = "Delete Product";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<h3>Are you sure you want to delete this product?</h3>
+
+<div>
+    <p>Product Name: @Model.ProductName</p>
+    <p>Price: @Model.Price</p>
+</div>
+
+<form method="post">
+    <button type="submit" class="btn btn-danger">Delete</button>
+    <a href="@Url.Action("Index", "Product")" class="btn btn-secondary">Cancel</a>
+</form>

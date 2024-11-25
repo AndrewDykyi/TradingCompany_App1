@@ -15,6 +15,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TradingCompany_WPF", "Tradi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessLogic_Tests", "BusinessLogic_Tests\BusinessLogic_Tests.csproj", "{E04F142D-295F-4984-8730-9B57B9F234E8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TradingCompany_WEB", "TradingCompany_WEB\TradingCompany_WEB.csproj", "{0F32B459-6B1A-4FAD-9786-3317BB757C79}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WEB_Tests", "WEB_Tests\WEB_Tests.csproj", "{82144E3F-5C82-4E3F-8E43-045B7F999B34}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +49,14 @@ Global
 		{E04F142D-295F-4984-8730-9B57B9F234E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E04F142D-295F-4984-8730-9B57B9F234E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E04F142D-295F-4984-8730-9B57B9F234E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F32B459-6B1A-4FAD-9786-3317BB757C79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F32B459-6B1A-4FAD-9786-3317BB757C79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F32B459-6B1A-4FAD-9786-3317BB757C79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F32B459-6B1A-4FAD-9786-3317BB757C79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82144E3F-5C82-4E3F-8E43-045B7F999B34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82144E3F-5C82-4E3F-8E43-045B7F999B34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82144E3F-5C82-4E3F-8E43-045B7F999B34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82144E3F-5C82-4E3F-8E43-045B7F999B34}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

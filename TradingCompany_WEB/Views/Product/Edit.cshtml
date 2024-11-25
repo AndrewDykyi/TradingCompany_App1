@@ -1,0 +1,20 @@
+﻿@model TradingCompany_WEB.Models.ProductModel
+
+<h1>Редагувати продукт</h1>
+
+<form method="post">
+    <div class="form-group">
+        <label for="ProductName">Назва продукту</label>
+        <input type="text" class="form-control" id="ProductName" name="ProductName" value="@Model.ProductName" required />
+    </div>
+    <div class="form-group">
+        <label for="Price">Ціна</label>
+        <input type="number" class="form-control" id="Price" name="Price" value="@Model.Price" required />
+    </div>
+    <input type="hidden" name="ProductID" value="@Model.ProductID" />
+    <button type="submit" class="btn btn-primary">Зберегти</button>
+</form>
+
+<p>
+    <a href="@Url.Action("Index", "Product")" class="btn btn-secondary">Назад до списку</a>
+</p>

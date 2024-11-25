@@ -1,0 +1,16 @@
+﻿@model TradingCompany_WEB.Models.ProductModel
+
+@{
+    ViewData["Title"] = "Product Details";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<div>
+    <h2>Product Name: @Model.ProductName</h2>
+    <p>Price: @Model.Price</p>
+</div>
+
+<p>
+    <a href="@Url.Action("Index", "Product")" class="btn btn-secondary">Back to Products List</a>
+</p>

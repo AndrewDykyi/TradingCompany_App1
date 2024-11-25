@@ -1,0 +1,20 @@
+﻿@model TradingCompany_WEB.Models.ProductModel
+
+<h1>@ViewData["Title"]</h1>
+
+<form method="post">
+    <div class="form-group">
+        <label for="ProductName">Product Name</label>
+        <input type="text" class="form-control" id="ProductName" name="ProductName" value="@Model.ProductName" required />
+    </div>
+    <div class="form-group">
+        <label for="Price">Price</label>
+        <input type="number" class="form-control" id="Price" name="Price" value="@Model.Price" required />
+    </div>
+
+    <button type="submit" class="btn btn-primary">Save</button>
+</form>
+
+<p>
+    <a href="@Url.Action("Index", "Product")" class="btn btn-secondary">Back to Products List</a>
+</p>

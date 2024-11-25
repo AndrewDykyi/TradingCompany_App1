@@ -1,9 +1,6 @@
 ﻿using BusinessLogic.Interface;
 using DAL.Concrete;
-using System.Collections.Generic;
 using System.ComponentModel;
-using System.Linq;
-using System.Threading.Tasks;
 using System.Windows.Input;
 
 namespace TradingCompany_WPF.ViewModels
